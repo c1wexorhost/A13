@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Zaitoon </title>
+      <meta name="robots" content="noindex, follow">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Favicon -->
+      <link rel="shortcut icon" type="image/x-icon" href="images/fevicon.png">      
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      
+        .floating-leaf {
+            animation: float 8s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(5deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
+        }
+        .progress-bar {
+            height: 8px;
+            position: relative;
+            background-color: #a0db89;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        .progress {
+            position: absolute;
+            height: 100%;
+            width: 75%;
+            border-radius: 4px;
+            background-color: #7AA142;
+            animation: progress-animation 2s ease-in-out infinite alternate;
+        }
+        @keyframes progress-animation {
+            0% { width: 75%; }
+            100% { width: 78%; }
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#7AA142',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center bg-white font-sans">
+    <div class="container mx-auto px-4 py-12 md:py-20 max-w-4xl">
+        <div class="relative  rounded-xl shadow-xl p-8 md:p-12 overflow-hidden" style="background-color: #F4FAEB;">
+            <!-- Decorative elements -->
+            <div class="absolute top-0 left-0 w-24 h-24 -translate-x-8 -translate-y-8 rotate-12 bg-primary/10 rounded-full z-0"></div>
+            <div class="absolute bottom-0 right-0 w-32 h-32 translate-x-12 translate-y-12 -rotate-12 bg-primary/5 rounded-full z-0"></div>
+            
+            <div class="relative z-10">
+                <!-- Logo and title -->
+                <div class="flex flex-col items-center mb-10">
+                   <img src="images/homepage-1/logo/zaitoon_logo.png" alt="" style="height: 20rem;">
+                   
+                </div>
+                
+                <!-- Main content -->
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">We're Brewing Something Special</h2>
+                    <p class="text-gray-600 mb-6 max-w-2xl mx-auto">Our website is currently under construction as we prepare a digital sanctuary for your holistic wellness journey. We're blending ancient Ayurvedic wisdom with modern technology to serve you better.</p>
+                    
+                </div>
+                
+                <!-- Home button -->
+                <div class="text-center mt-8">
+                    <button class="px-8 py-4 rounded-lg bg-primary text-white font-medium hover:bg-primary/90 transition duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 flex items-center justify-center mx-auto gap-2"
+                            onclick="window.location.href='/'">
+                        <i class="fas fa-home"></i> Go to Home
+                    </button>
+                </div>
+                
+                <!-- Social links -->
+                <div class="flex justify-center gap-4 mt-8 pt-6 border-t border-gray-100">
+                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-700 hover:bg-primary hover:text-white transition duration-200">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-700 hover:bg-primary hover:text-white transition duration-200">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-700 hover:bg-primary hover:text-white transition duration-200">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-700 hover:bg-primary hover:text-white transition duration-200">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <p class="text-center text-gray-400 mt-8 text-sm">© Copyright  2025 <a href="https://wexorai.com/"> Wexorai</a>  All Rights Reserved</p>
+    </div>
+    
+</body>
+</html>

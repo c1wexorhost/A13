@@ -1,0 +1,171 @@
+@font-face {
+	font-family: "flaticon";
+	src: url("../fonts/flaticon6ee1.woff2?cdb12c446ffa029a0921ae07d5fe335b") format("woff2"),
+url("../fonts/flaticon6ee1.woff?cdb12c446ffa029a0921ae07d5fe335b") format("woff"),
+url("../fonts/flaticon6ee1.eot?cdb12c446ffa029a0921ae07d5fe335b#iefix") format("embedded-opentype"),
+url("../fonts/flaticon6ee1.ttf?cdb12c446ffa029a0921ae07d5fe335b") format("truetype"),
+url("../fonts/flaticon6ee1.svg?cdb12c446ffa029a0921ae07d5fe335b#flaticon") format("svg")
+}
+
+i[class^="pbmit_zaitoon-"]:before, i[class*=" pbmit-zaitoon-icon-"]:before {
+	font-family: flaticon !important;
+	font-style: normal;
+	font-weight: normal !important;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.pbmit-zaitoon-icon-depilation:before {
+	content: "\f101";
+}
+.pbmit-zaitoon-icon-foot-massage:before {
+	content: "\f102";
+}
+.pbmit-zaitoon-icon-acupuncture:before {
+	content: "\f103";
+}
+.pbmit-zaitoon-icon-facial-mask:before {
+	content: "\f104";
+}
+.pbmit-zaitoon-icon-essential-oil:before {
+	content: "\f105";
+}
+.pbmit-zaitoon-icon-manicure:before {
+	content: "\f106";
+}
+.pbmit-zaitoon-icon-bathtub:before {
+	content: "\f107";
+}
+.pbmit-zaitoon-icon-herbal-massage:before {
+	content: "\f108";
+}
+.pbmit-zaitoon-icon-cream:before {
+	content: "\f109";
+}
+.pbmit-zaitoon-icon-aromatic:before {
+	content: "\f10a";
+}
+.pbmit-zaitoon-icon-slipper:before {
+	content: "\f10b";
+}
+.pbmit-zaitoon-icon-pedicure:before {
+	content: "\f10c";
+}
+.pbmit-zaitoon-icon-mortar:before {
+	content: "\f10d";
+}
+.pbmit-zaitoon-icon-salt:before {
+	content: "\f10e";
+}
+.pbmit-zaitoon-icon-face-massage:before {
+	content: "\f10f";
+}
+.pbmit-zaitoon-icon-staff:before {
+	content: "\f110";
+}
+.pbmit-zaitoon-icon-massage:before {
+	content: "\f111";
+}
+.pbmit-zaitoon-icon-facial-treatment:before {
+	content: "\f112";
+}
+.pbmit-zaitoon-icon-sponge:before {
+	content: "\f113";
+}
+.pbmit-zaitoon-icon-soap:before {
+	content: "\f114";
+}
+.pbmit-zaitoon-icon-face-treatment:before {
+	content: "\f115";
+}
+.pbmit-zaitoon-icon-bathrobe:before {
+	content: "\f116";
+}
+.pbmit-zaitoon-icon-pedicure-1:before {
+	content: "\f117";
+}
+.pbmit-zaitoon-icon-candle:before {
+	content: "\f118";
+}
+.pbmit-zaitoon-icon-towel:before {
+	content: "\f119";
+}
+.pbmit-zaitoon-icon-stone:before {
+	content: "\f11a";
+}
+.pbmit-zaitoon-icon-honey-jar:before {
+	content: "\f11b";
+}
+.pbmit-zaitoon-icon-sauna:before {
+	content: "\f11c";
+}
+.pbmit-zaitoon-icon-aromatherapy:before {
+	content: "\f11d";
+}
+.pbmit-zaitoon-icon-brush:before {
+	content: "\f11e";
+}
+.pbmit-zaitoon-icon-full-stop:before {
+	content: "\f11f";
+}
+.pbmit-zaitoon-icon-gmail:before {
+	content: "\f120";
+}
+.pbmit-zaitoon-icon-location:before {
+	content: "\f121";
+}
+.pbmit-zaitoon-icon-call:before {
+	content: "\f122";
+}
+.pbmit-zaitoon-icon-calendar:before {
+	content: "\f123";
+}
+.pbmit-zaitoon-icon-high-quality:before {
+	content: "\f124";
+}
+.pbmit-zaitoon-icon-arrow:before {
+	content: "\f125";
+}
+.pbmit-zaitoon-icon-quote:before {
+	content: "\f126";
+}
+.pbmit-zaitoon-icon-pbm-contacts:before {
+	content: "\f127";
+}
+.pbmit-zaitoon-icon-play-button:before {
+	content: "\f128";
+}
+.pbmit-zaitoon-icon-line:before {
+	content: "\f129";
+}
+.pbmit-zaitoon-icon-line-1:before {
+	content: "\f12a";
+}
+.pbmit-zaitoon-icon-line-2:before {
+	content: "\f12b";
+}
+.pbmit-zaitoon-icon-line-3:before {
+	content: "\f12c";
+}
+.pbmit-zaitoon-icon-line-4:before {
+	content: "\f12d";
+}
+.pbmit-zaitoon-icon-line-5:before {
+	content: "\f12e";
+}
+.pbmit-zaitoon-icon-line-6:before {
+	content: "\f12f";
+}
+.pbmit-zaitoon-icon-line-7:before {
+	content: "\f130";
+}
+.pbmit-zaitoon-icon-pbm-working-time:before {
+	content: "\f131";
+}
+.pbmit-zaitoon-icon-high-quality-true:before {
+	content: "\f132";
+}
+
