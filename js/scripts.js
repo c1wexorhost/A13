@@ -286,19 +286,19 @@
   /*-------------------------------------
   Header Search Form
   -------------------------------------*/
-	$( ".pbmit-header-search-btn a" ).on('click', function() {     
-		$(".pbmit-search-overlay").addClass('st-show');
-		$("body").addClass('st-prevent-scroll');            
-		return false;
-	});   
-	$( ".pbmit-icon-close" ).on('click', function() {
-			$(".pbmit-search-overlay").removeClass('st-show');
-		$("body").removeClass('st-prevent-scroll');            
-		return false;
-	}); 
-	$('.pbmit-site-searchform').on('click', function(event){
-		event.stopPropagation();
-	});
+	// $( ".pbmit-header-search-btn a" ).on('click', function() {     
+	// 	$(".pbmit-search-overlay").addClass('st-show');
+	// 	$("body").addClass('st-prevent-scroll');            
+	// 	return false;
+	// });   
+	// $( ".pbmit-icon-close" ).on('click', function() {
+	// 		$(".pbmit-search-overlay").removeClass('st-show');
+	// 	$("body").removeClass('st-prevent-scroll');            
+	// 	return false;
+	// }); 
+	// $('.pbmit-site-searchform').on('click', function(event){
+	// 	event.stopPropagation();
+	// });
   
   /*-------------------------------------
   Count Down
