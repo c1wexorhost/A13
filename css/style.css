@@ -20,6 +20,14 @@
 /*  00 - Home
 /*----------------------------------------*/
 /** Homepage 01 **/
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+
 .about-us-one-bg{
     background-image: url(../images/homepage-1/bg/about-bg.png);
     background-position: bottom left;
