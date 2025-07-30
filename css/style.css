@@ -25,6 +25,9 @@ body {
   color: #000;
 }
 
+.textwidget p {
+  margin: 2px 0 0; /* 8px top and bottom margin, 0 left and right */
+}
 
 
 
