@@ -85,7 +85,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/fevicon.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="images/fevicon.png" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Load Bootstrap asynchronously -->
+    <link rel="preload" href="css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/bootstrap.min.css"></noscript>
     <!-- Fontawesome -->
     <link rel="stylesheet" href="css/fontawesome.css" />
     <!-- Flaticon -->
@@ -298,7 +300,7 @@
               <div class="swiper-slide">
                 <div class="pbmit-slider-item">
                   <div
-                    class="pbmit-slider-bg"
+                    class="pbmit-slider-bg lazy-bg"
                     style="
                       background-image: url(images/banner-slider-img/demo2-slide02.png);
                     "
@@ -361,7 +363,7 @@
               <div class="swiper-slide">
                 <div class="pbmit-slider-item">
                   <div
-                    class="pbmit-slider-bg"
+                    class="pbmit-slider-bg lazy-bg"
                     style="
                       background-image: url(images/banner-slider-img/slide03.webp);
                     "
@@ -504,7 +506,7 @@
                             <div class="pbmit-featured-wrapper">
                               <img
                                 src="images/homepage-2/service/service-03.jpg"
-                                alt=""
+                                alt="" loading="lazy"
                               />
                             </div>
                           </div>
@@ -559,7 +561,7 @@
                             <div class="pbmit-featured-wrapper">
                               <img
                                 src="images/homepage-2/service/s3.png"
-                                alt=""
+                                alt="" loading="lazy"
                               />
                             </div>
                           </div>
@@ -613,7 +615,7 @@
                             <div class="pbmit-featured-wrapper">
                               <img
                                 src="images/homepage-2/service/service-06.jpg"
-                                alt=""
+                                alt="" loading="lazy"
                               />
                             </div>
                           </div>
@@ -670,7 +672,7 @@
                             <div class="pbmit-featured-wrapper">
                               <img
                                 src="images/homepage-2/service/s2.png"
-                                alt=""
+                                alt="" loading="lazy"
                               />
                             </div>
                           </div>
@@ -724,7 +726,7 @@
                             <div class="pbmit-featured-wrapper">
                               <img
                                 src="images/homepage-2/service/service-05.webp"
-                                alt=""
+                                alt="" loading="lazy"
                               />
                             </div>
                           </div>
@@ -836,14 +838,14 @@
                           <div class="pbmit-client-hover-img">
                             <img
                               src="images/client/client-global-01.png"
-                              alt=""
+                              alt="" loading="lazy"
                             />
                           </div>
                           <div class="pbmit-featured-img-wrapper">
                             <div class="pbmit-featured-wrapper">
                               <img
                                 src="images/client/client-dark-01.png"
-                                alt=""
+                                alt="" loading="lazy"
                               />
                             </div>
                           </div>
@@ -862,14 +864,14 @@
                           <div class="pbmit-client-hover-img">
                             <img
                               src="images/client/client-global-02.png"
-                              alt=""
+                              alt="" loading="lazy"
                             />
                           </div>
                           <div class="pbmit-featured-img-wrapper">
                             <div class="pbmit-featured-wrapper">
                               <img
                                 src="images/client/client-dark-02.png"
-                                alt=""
+                                alt="" loading="lazy"
                               />
                             </div>
                           </div>
@@ -888,14 +890,14 @@
                           <div class="pbmit-client-hover-img">
                             <img
                               src="images/client/client-global-03.png"
-                              alt=""
+                              alt="" loading="lazy"
                             />
                           </div>
                           <div class="pbmit-featured-img-wrapper">
                             <div class="pbmit-featured-wrapper">
                               <img
                                 src="images/client/client-dark-03.png"
-                                alt=""
+                                alt="" loading="lazy"
                               />
                             </div>
                           </div>
@@ -914,14 +916,14 @@
                           <div class="pbmit-client-hover-img">
                             <img
                               src="images/client/client-global-04.png"
-                              alt=""
+                              alt="" loading="lazy"
                             />
                           </div>
                           <div class="pbmit-featured-img-wrapper">
                             <div class="pbmit-featured-wrapper">
                               <img
                                 src="images/client/client-dark-04.png"
-                                alt=""
+                                alt="" loading="lazy"
                               />
                             </div>
                           </div>
@@ -940,14 +942,14 @@
                           <div class="pbmit-client-hover-img">
                             <img
                               src="images/client/client-global-05.png"
-                              alt=""
+                              alt="" loading="lazy"
                             />
                           </div>
                           <div class="pbmit-featured-img-wrapper">
                             <div class="pbmit-featured-wrapper">
                               <img
                                 src="images/client/client-dark-05.png"
-                                alt=""
+                                alt="" loading="lazy"
                               />
                             </div>
                           </div>
@@ -966,14 +968,14 @@
                           <div class="pbmit-client-hover-img">
                             <img
                               src="images/client/client-global-06.png"
-                              alt=""
+                              alt="" loading="lazy"
                             />
                           </div>
                           <div class="pbmit-featured-img-wrapper">
                             <div class="pbmit-featured-wrapper">
                               <img
                                 src="images/client/client-dark-06.png"
-                                alt=""
+                                alt="" loading="lazy"
                               />
                             </div>
                           </div>
@@ -998,8 +1000,8 @@
                 <div class="about-us-two-leftbox">
                   <img
                     src="images/homepage-2/bg/pbmit-mask-img.jpg"
-                    class="img-fluid"
-                    alt=""
+                    class="img-fluid" 
+                    alt="" loading="lazy"
                   />
                   <div class="ihbox-style-area">
                     <div class="pbmit-ihbox-style-11">
@@ -1373,7 +1375,7 @@
                                 src="images/homepage-2/accordian/accordian-img-01.jpg"
                                 class="img-fluid"
                                 width="120"
-                                alt=""
+                                alt="" loading="lazy"
                               />
                             </div>
                             <div
@@ -1427,7 +1429,7 @@
                               <img
                                 src="images/homepage-2/accordian/accordian-img-02.jpg"
                                 alt=""
-                                class="img-fluid"
+                                class="img-fluid" loading="lazy"
                               />
                             </div>
                             <div
@@ -1481,7 +1483,7 @@
                               <img
                                 src="images/homepage-2/accordian/accordian-img-03.jpg"
                                 alt=""
-                                class="img-fluid"
+                                class="img-fluid" loading="lazy"
                               />
                             </div>
                             <div
@@ -1500,7 +1502,7 @@
               </div>
               <div class="col-xl-6 accordion-two-col-2">
                 <div class="accordian-image">
-                  <img src="images/bg/massage.webp" alt="" class="img-fluid" />
+                  <img src="images/bg/massage.webp" alt="" class="img-fluid" loading="lazy"/>
                 </div>
               </div>
             </div>
@@ -1537,7 +1539,7 @@
                         <div class="pbmit-featured-wrap">
                           <div class="pbmit-featured-img-wrapper">
                             <div class="pbmit-featured-wrapper">
-                              <img src="images/team/2.webp" alt="" />
+                              <img src="images/team/2.webp" alt="" loading="lazy"/>
                             </div>
                           </div>
                         </div>
@@ -1593,7 +1595,7 @@
                         <div class="pbmit-featured-wrap">
                           <div class="pbmit-featured-img-wrapper">
                             <div class="pbmit-featured-wrapper">
-                              <img src="images/team/1.webp" alt="" />
+                              <img src="images/team/1.webp" alt="" loading="lazy"/>
                             </div>
                           </div>
                         </div>
@@ -1649,7 +1651,7 @@
                         <div class="pbmit-featured-wrap">
                           <div class="pbmit-featured-img-wrapper">
                             <div class="pbmit-featured-wrapper">
-                              <img src="images/team/3.webp" alt="" />
+                              <img src="images/team/3.webp" alt="" loading="lazy"/>
                             </div>
                           </div>
                         </div>
@@ -1705,7 +1707,7 @@
                         <div class="pbmit-featured-wrap">
                           <div class="pbmit-featured-img-wrapper">
                             <div class="pbmit-featured-wrapper">
-                              <img src="images/team/4.webp" alt="" />
+                              <img src="images/team/4.webp" alt="" loading="lazy"/>
                             </div>
                           </div>
                         </div>
@@ -1761,7 +1763,7 @@
                         <div class="pbmit-featured-wrap">
                           <div class="pbmit-featured-img-wrapper">
                             <div class="pbmit-featured-wrapper">
-                              <img src="images/team/5.webp" alt="" />
+                              <img src="images/team/5.webp" alt="" loading="lazy"/>
                             </div>
                           </div>
                         </div>
@@ -1893,7 +1895,7 @@
                             <img
                               src="images/homepage-3/testimonial/reviewer-01.jpg"
                               class="img-fluid"
-                              alt="reviewer-01"
+                              alt="reviewer-01" loading="lazy"
                             />
                           </div>
                         </div>
@@ -1932,7 +1934,7 @@
                             <img
                               src="images/homepage-3/testimonial/reviewer-02.jpg"
                               class="img-fluid"
-                              alt="reviewer-01"
+                              alt="reviewer-01" loading="lazy"
                             />
                           </div>
                         </div>
@@ -1971,7 +1973,7 @@
                             <img
                               src="images/homepage-3/testimonial/reviewer-03.jpg"
                               class="img-fluid"
-                              alt="reviewer-01"
+                              alt="reviewer-01" loading="lazy"
                             />
                           </div>
                         </div>
@@ -2010,7 +2012,7 @@
                             <img
                               src="images/homepage-3/testimonial/reviewer-04.jpg"
                               class="img-fluid"
-                              alt="reviewer-01"
+                              alt="reviewer-01" loading="lazy"
                             />
                           </div>
                         </div>
@@ -2049,7 +2051,7 @@
                             <img
                               src="images/homepage-3/testimonial/reviewer-05.jpg"
                               class="img-fluid"
-                              alt="reviewer-01"
+                              alt="reviewer-01" loading="lazy"
                             />
                           </div>
                         </div>
@@ -2088,7 +2090,7 @@
                             <img
                               src="images/homepage-3/testimonial/reviewer-06.jpg"
                               class="img-fluid"
-                              alt="reviewer-01"
+                              alt="reviewer-01" loading="lazy"
                             />
                           </div>
                         </div>
@@ -2147,7 +2149,7 @@
                         <img
                           src="images/homepage-3/portfolio/portfolio-01.jpg"
                           class="img-fluid"
-                          alt=""
+                          alt="" loading="lazy"
                         />
                       </div>
                     </div>
@@ -2170,7 +2172,7 @@
                       <div class="pbmit-featured-wrapper">
                         <img
                           src="images/homepage-3/portfolio/portfolio-02.jpg"
-                          alt=""
+                          alt="" loading="lazy"
                         />
                       </div>
                     </div>
@@ -2193,7 +2195,7 @@
                       <div class="pbmit-featured-wrapper">
                         <img
                           src="images/homepage-3/portfolio/portfolio-03.jpg"
-                          alt=""
+                          alt="" loading="lazy"
                         />
                       </div>
                     </div>
@@ -2216,7 +2218,7 @@
                       <div class="pbmit-featured-wrapper">
                         <img
                           src="images/homepage-3/portfolio/portfolio-04.jpg"
-                          alt=""
+                          alt="" loading="lazy"
                         />
                       </div>
                     </div>
@@ -2239,7 +2241,7 @@
                       <div class="pbmit-featured-wrapper">
                         <img
                           src="images/homepage-3/portfolio/portfolio-05.jpg"
-                          alt=""
+                          alt="" loading="lazy"
                         />
                       </div>
                     </div>
@@ -2262,7 +2264,7 @@
                       <div class="pbmit-featured-wrapper">
                         <img
                           src="images/homepage-3/portfolio/portfolio-06.jpg"
-                          alt=""
+                          alt="" loading="lazy"
                         />
                       </div>
                     </div>
@@ -2364,7 +2366,7 @@
                               <div class="pbmit-featured-wrapper">
                                 <img
                                   src="images/homepage-2/blog/blog-01.jpg"
-                                  alt="blog-01"
+                                  alt="blog-01" loading="lazy"
                                 />
                               </div>
                             </div>
@@ -2435,7 +2437,7 @@
                               <div class="pbmit-featured-wrapper">
                                 <img
                                   src="images/homepage-2/blog/blog-02.jpg"
-                                  alt="blog-01"
+                                  alt="blog-01" loading="lazy"
                                 />
                               </div>
                             </div>
@@ -2506,7 +2508,7 @@
                               <div class="pbmit-featured-wrapper">
                                 <img
                                   src="images/homepage-2/blog/blog-03.jpg"
-                                  alt="blog-01"
+                                  alt="blog-01" loading="lazy"
                                 />
                               </div>
                             </div>
@@ -2577,7 +2579,7 @@
                               <div class="pbmit-featured-wrapper">
                                 <img
                                   src="images/homepage-2/blog/blog-01.jpg"
-                                  alt="blog-01"
+                                  alt="blog-01" loading="lazy"
                                 />
                               </div>
                             </div>
@@ -2648,7 +2650,7 @@
                               <div class="pbmit-featured-wrapper">
                                 <img
                                   src="images/homepage-2/blog/blog-02.jpg"
-                                  alt="blog-01"
+                                  alt="blog-01" loading="lazy"
                                 />
                               </div>
                             </div>
@@ -2719,7 +2721,7 @@
                               <div class="pbmit-featured-wrapper">
                                 <img
                                   src="images/homepage-2/blog/blog-03.jpg"
-                                  alt="blog-01"
+                                  alt="blog-01" loading="lazy"
                                 />
                               </div>
                             </div>
@@ -2811,7 +2813,7 @@
                     <div class="pbmit-footer-logo">
                       <img
                         src="images/homepage-1/logo/footer-logo.svg"
-                        alt=""
+                        alt="" loading="lazy"
                       />
                     </div>
                     <div class="pbmit-footer-text">
